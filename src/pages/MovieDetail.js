@@ -28,4 +28,13 @@ function MovieDetail() {
 
   return (
     <div className="detail">
-      <h1
+      <h1>{movie.title}</h1>
+      <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
+      <p><strong>Release Date:</strong> {movie.release_date}</p>
+      <p><strong>Rating:</strong> {movie.vote_average}</p>
+      <p><strong>Overview:</strong> {movie.overview}</p>
+    </div>
+  );
+}
+
+export default MovieDetail;
