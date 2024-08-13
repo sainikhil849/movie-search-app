@@ -19,7 +19,7 @@ To get started with the Movie Search App, follow these steps:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/movie-search-app.git
+    git clone https://github.com/sainikhil849/movie-search-app.git
     ```
 
 2. **Navigate into the Project Directory:**
